@@ -1,0 +1,9 @@
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 12px;
+    }
+    .mini-column{
+        flex-direction: column;
+    }
+}

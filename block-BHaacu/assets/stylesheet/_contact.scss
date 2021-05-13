@@ -1,0 +1,119 @@
+.contact_address h4{
+    color: gray;
+    text-align: center;
+    line-height: 1.5;
+    width: 60%;
+    margin: auto;
+}
+
+.contact_address_one{
+    text-align: center;
+}
+
+.contact_address_one i{
+    font-size: 2.5rem;
+    background-color: #f2f2f2;
+    color: $primary;
+    padding: 2rem;
+    border-radius: 50%;
+}
+.contact_address_one h5{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.contact_address_one p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: gray;
+}
+.address_section{
+    margin-top: 4rem;
+}
+.contact_address_section{
+    background-color: #f2f2f25b;
+    padding: 8rem;
+}
+
+// Solution section
+
+.solution_section_contact{
+    background-color: $white;
+}
+ 
+// Map Section
+
+.map{
+    align-items: unset;
+}
+
+.map_left iframe{
+    width: 100%;
+}
+
+// Form
+
+input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    // margin-top: 2rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+}
+textarea{
+    width: 100%;
+    height: 300px;
+    font-size: 1.5rem;
+    padding: 2rem ;
+    margin-top: 2rem;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+
+}
+.message_btn{
+    display: block;
+    background-color: $primary;
+    color: $white;
+    border-radius: 30px;
+    // padding:2rem;
+    width: 200px;
+    height: 60px;
+    font-size: 1.1rem;
+    border: 0;
+    outline: 0;
+    margin:2rem auto;
+}
+input:nth-child(2){
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 12px;
+    }
+    .container{
+        width: 90%;
+    }
+    form{
+        margin-top: 2rem;
+    }
+   
+    
+}
+
+@media screen and (max-width:360px) {
+    html{
+        font-size: 8px;
+    }
+    .mini-column{
+        flex-direction: column;
+    }
+    .contact_address h4{
+        width: 100%;
+    }
+    .message_btn{
+        width: 120px;
+        height: 30px;
+    }
+}

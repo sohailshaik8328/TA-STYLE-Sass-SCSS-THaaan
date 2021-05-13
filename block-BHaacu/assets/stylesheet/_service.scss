@@ -1,0 +1,63 @@
+.service_leader{
+    color: red;
+    font-size: 1.3rem;
+}
+.leader .leader_left_service h3{
+    width: 60%;
+    margin-top: 2rem;
+}
+// Service cards
+
+.product_section{
+    margin-top: 8rem;
+    background-color: #F2F2F2;
+    padding: 8rem;
+}
+.product_header{
+    text-align: center;
+}
+.service_card img{
+    width: 25%;
+}
+.service_card h3{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+.service_card p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+.service_card{
+    margin-top: 8rem;
+}
+
+// Request Section
+
+.request_section_service{
+    margin: 0;
+}
+
+// Team section
+
+.team .team_left_service h3{
+    width: 65%;
+}
+// Footer
+.footer_section_service{
+    margin-top: 6rem;
+}
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    html{
+        font-size: 8px;
+    }
+}
+

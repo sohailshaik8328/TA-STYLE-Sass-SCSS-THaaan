@@ -1,0 +1,106 @@
+.pricing_page_cards_section {
+    text-align: center;
+   
+
+}
+.pricing_page_cards_section p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: gray;
+}
+.pricing_page_card{
+    box-shadow: -2px -2px 6px rgba(128, 128, 128, 0.288),
+    2px 2px 6px rgba(128, 128, 128, 0.39);
+    padding: 3rem 0;
+}
+.pricing_page_card strong{
+    font-size: 1.2rem;
+}
+.pricing_page_card h2{
+    font-size: 2rem;
+    font-weight: 900;
+    &::before{
+        content: "$";
+    }
+}
+.pricing_page_card h5{
+    color: gray;
+}
+.pricing_page_card nav ul li:nth-child(1){
+    font-weight: 600;
+    margin-top: 1rem;
+    // line-height: 3;
+}
+.pricing_page_card{
+    line-height: 2;
+}
+.pricing_page_card nav ul li:nth-child(2){
+    margin-top: 1rem;
+}
+.download_btn a{
+    border: 1px solid $primary;
+    border-radius: 30px;
+    padding: 1rem 2rem ;
+    color: $primary;
+    &:hover{
+        background-color: $primary;
+        color: $white;
+    }
+}
+.download_btn{
+    margin-top: 2rem;
+}
+.download_btn_new a{
+    background-color: $primary;
+    color: $white;
+}
+.pricing_page_cards{
+    margin-top: 5rem;
+}
+.pricing_page_cards_section_total{
+    margin-top: 8rem;
+}
+// Frequent
+.frequent{
+    text-align: center;
+}
+.frequent header h3{
+    font-weight: 900;
+}
+.frequent header p {
+    font-size: 1.2rem;
+    line-height: 3;
+    color: gray;
+}
+.frequent_cards{
+    text-align: left;
+}
+.frequent_cards .frequent_card p{
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+.frequent_card{
+    box-shadow: -2px -2px 6px rgba(128, 128, 128, 0.322),
+     2px 2px 6px rgba(128, 128, 128, 0.295);
+     padding: 2rem;
+     margin-top: 3rem;
+}
+.frequent_section{
+    margin-top: 6rem;
+}
+
+.footer_section_pricing{
+    margin-top: 6rem;
+}
+
+@media screen and (max-width:768px) {
+    .pricing_page_card{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    html{
+        font-size: 8px;
+    }
+}

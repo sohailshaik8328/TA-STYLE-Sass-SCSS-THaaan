@@ -1,0 +1,490 @@
+// Red BG on Top
+
+%white {
+    color: $white;
+}
+.red_bg_section{
+    width: 100%;
+    background-color: $primary;
+    padding: 1rem;
+    .red_bg_left i , .red_bg_left p {
+        @extend %white;
+        font-size: 1.1rem;
+    }
+    .red_bg_left_two{
+        margin-left: 2rem;
+    }
+    .red_bg_left p , .red_bg_right p {
+        margin-left: 1rem;
+        font-size: 1.1rem;
+    
+    } 
+    .red_bg_right ul li i{
+        font-size: 1.2rem;
+        margin-right: 1rem;
+        color: $white;
+    }
+    
+}
+
+// Header Section
+
+.header_section{
+    background-color: #F2F2F2;
+    padding: 2rem;
+    width: 100%;
+
+    .dropdown{
+        position: absolute;
+        background-color: #F2F2F2;
+        right: 25rem;
+        padding: 2rem 3rem;
+        top: 9.1rem;
+        line-height: 2;
+        display: none;
+    }
+    .down .dropdown a{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .down:hover ~  .dropdown{
+        display: block;
+    }
+    .dropdown:hover{
+        display: block;
+        a{
+            background: none;
+            &:hover{
+                background: none;
+                color: $primary;
+            }
+        }
+    }
+    .down i{
+        font-size: 1.3rem;
+        margin-left: 1rem;
+        justify-content: baseline;
+    }
+    .angle_down{
+        font-size: 1.5rem; 
+    }
+    .dropdown .drop_a{
+        font-size: 1.3rem;
+    }
+    .dropdown_two{
+        right: 15rem;
+    }
+
+
+    .brand{
+        font-size: 2rem;
+        font-weight: 600;
+        color: $primary;
+    }
+    .tech{
+        font-weight:900 ;
+        color: black;
+    }
+    .nav .a_right {
+        margin-right: 2rem;
+    }
+    .nav li{
+        height: 100%;
+    }
+    .nav li a{
+        font-size: 1.3rem;
+        // margin-top: 0.5rem;
+        color: black;
+        font-weight: 500; 
+        padding: 2.4rem 0.5rem;
+        &:hover{
+            background-color: $secondary;
+            color: $white;
+            transition: all 0.3s;
+        } 
+    }
+     .home_active{
+        background-color: $secondary;
+    }
+    .nav li .home_active{
+        color: #ffffff;
+    }
+    
+}
+
+
+// Hero Section
+
+.hero_section{
+    background-image: url(../media/banner-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    .main_heading{
+        text-transform: uppercase;
+        font-size: 5rem;
+        font-weight: 900;
+        width: 70%;
+        line-height: 1.2;
+    }
+    .head_caption{
+        margin-top: 2rem;
+        font-size: 1.8rem;
+    }
+    .quick_btn{
+        margin-top: 3rem;
+    }
+    .quick_btn a{
+        background-color: $primary;
+        color: $white;
+        border-radius: 40px;
+        padding: 1rem 1.5rem;
+    }
+    
+}
+
+
+// Service Section
+
+.service, .solution, .team{
+    text-align: center;
+}
+
+.heading{
+    font-weight: 600;
+}
+.para{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+// Cards
+.service_section{
+    margin-top: 7rem;
+
+    .cards{
+        margin-top: 7rem;
+    }
+    
+    .card{
+        padding: 6rem 2rem;
+        box-shadow: -2px -2px 6px rgba(128, 128, 128, 0.281),
+        2px 2px 6px rgba(128, 128, 128, 0.24);
+    }
+    .card img{
+        width: 30%;
+    }
+    .card h4{
+        font-weight: 600;
+        margin-top: 2rem;
+    }
+    .card p{
+        color: gray;
+        line-height: 1.5;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+    .read_more_btn{
+        margin-top: 4rem;
+    }
+    .read_more_btn a{
+        color: $primary;
+        border: 1px solid $primary;
+        border-radius: 50px;
+        padding: 0.7rem 1.8rem;
+    }
+}
+
+
+
+// Solution section
+
+.solution_section{
+    background-color: #F8F9FA;
+    padding: 10rem;
+    margin-top: 10rem;
+
+    .solution{
+        width: 70%;
+        margin: auto;
+    }
+    .para_one{
+        line-height: 1.8;
+        color: gray;
+        margin-top: 3rem;
+    }
+    
+
+}
+
+// team Section
+
+.team_section{
+    margin-top: 8rem;
+
+    .team img{
+        width: 15%;
+    }
+    .team h3{
+        font-weight:900 ;
+        width: 60%;
+        margin:3rem  auto;
+        line-height: 1.5;
+    }
+    .team p{
+        color: gray;
+        line-height: 1.5;
+        font-size: 1.2rem;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .team_right img{
+        width: 100%;
+    }
+    .read_more_btn_new{
+        margin-top: 2rem;
+    }
+}
+
+
+
+// Request section
+.request_section{
+    background-color: $primary;
+    padding: 4rem 0;
+    margin-top: 15rem ;
+
+    .read_more_btn_two{
+        margin: 0;
+    }
+    .read_more_btn_two a{
+        color: $white;
+        border: 1px solid $white;
+        padding: 1rem 2rem;
+        border-radius: 30px;
+
+    }
+    .request h4, .request p{
+        color: $white;
+        line-height: 2;
+    }
+}
+
+
+// Leader Section
+.leader_section{
+    margin-top: 8rem;
+
+    .leader_left h3{
+        font-weight: 900;
+        width: 50%;
+        line-height: 1.5;
+    }
+    .leader_left p{
+        width: 80%;
+        line-height: 1.5;
+        margin-top: 2rem;
+        color: gray;
+        font-size: 1.2rem;
+    }
+    .leader_right img{
+        width: 100%;
+    }
+}
+
+// Client section
+
+.client_section{
+    background-color: #F8F9FA;
+    text-align: center;
+    padding: 10rem;
+
+    .brands{
+        margin-top: 3rem;
+    }
+    .brands img{
+        filter: grayscale(100%);
+        &:hover{
+            filter: grayscale(0%);
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+// Footer 
+
+.footer_section{
+    background-color: $tertiary;
+    color: #ffffff98;
+    padding: 5rem;
+
+    .footer{
+        align-items: unset;
+    }
+    
+    .foot_h4{
+        font-weight: 600;
+    }
+    .footer span{
+        margin-left: 1rem;
+    }
+    .address_section{
+        margin-top: 2rem;
+    }
+    address{
+        line-height: 3;
+    }
+    .foot_nav ul{
+        margin-top: 2rem;
+        justify-content: unset;
+    }
+    .foot_nav  li{
+        line-height: 2;
+    }
+    .foot_nav li a {
+        color: #ffffff98;
+        &:hover{
+            color: $white;
+        }
+    }
+    .foot_nav li i{
+        margin-right: 2rem;
+    }
+    
+    .foot_bottom{
+        text-align: center;
+        margin-top: 5rem;
+    }
+    .bootstrap_caption{
+        color: #ffffff98;
+        display: block;
+        line-height: 3;
+    }
+    .bootstrap{
+        color: #ffffffde;
+    
+    }
+}
+.bars{
+    // font-size: 2.5rem;
+    display: none;
+}
+#toggle{
+    display: none;
+}
+.times{
+    font-size: 0;
+    display: block;
+}
+
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 12px;
+    }
+    .container{
+        width: 90%;
+    }
+    .bars{
+        display: block;
+        z-index: 9999;
+        font-size: 2rem;
+    }
+    .nav{
+        display: none;
+    }
+    #toggle:checked~.nav{
+     display:block;
+     position: fixed;
+     width: 100%;
+     height: 100vh;
+     z-index: 999;
+     left: 0;
+     top: 0;   
+     background: linear-gradient(#00d2ff, #3a7bd5);
+    & .nav_ul{
+        flex-direction: column;
+    }
+    & .nav_ul li a {
+        font-size: 2rem;
+        color: $white;
+        background: none;
+        line-height: 3;
+      }
+      & .nav_ul li:nth-child(1){
+          margin-top: 20rem;
+      }
+    } 
+    .times{
+        position: absolute;
+        right: 3rem;
+        top: 2rem;
+        font-size: 3rem;
+    }
+    .flex-23, .flex-30,.flex-40,
+    .flex-45, .flex-65{
+        flex: 0 1 100%;
+    }
+    .red_bg_section{
+        width: 100%;
+    }
+    .hero_section{
+        height: 50vh;
+    }
+    .card{
+        margin-top: 2rem;
+    }
+    .mini-wrap{
+        flex-wrap: wrap;
+    }
+    .column{
+        flex-direction: column;
+    }
+    .team_right img{
+        margin-top: 3rem;
+    }
+    .footer_two{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    html{
+        font-size: 8px;
+    }
+    .bars, .times{
+        font-size: 2rem;
+    }
+    .hero .main_heading{
+        font-size: 2rem;
+    }
+    .hero_section{
+        height: 30vh;
+    }
+    .hero .head_caption{
+        font-size: 1rem;
+    }
+    .brands img{
+        width: 50%;
+        margin-top: 2rem;
+    }
+    .mini-column{
+        flex-direction: column;
+    }
+    .request .read_more_btn_two{
+        margin-top: 4rem;
+    }
+}
+
+
+
+
+
+
