@@ -1,0 +1,111 @@
+.about_bg_section{
+    background-color: $primary;
+    color: $white;
+    padding: 6rem;
+    margin: 0;
+}
+.about_heading{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 2;
+}
+.about_content{
+    text-align: center;
+}
+.about_content p{
+    letter-spacing: 1px;
+}
+
+// Mission
+
+.mission_left img{
+    width: 60%;
+}
+.mission_right_one i{
+    font-size: 3rem;
+}
+.mission_right_one p{
+    line-height: 1.5;
+    color: gray;
+    margin-top: 1rem;
+}
+.mission_content{
+    margin-left: 3rem;
+}
+.mission_right_one{
+    margin-top: 3rem;
+}
+// .mission_left{
+//     padding: 2rem;
+// }
+.mission_section{
+    margin-top: 5rem;
+}
+
+// Team members section
+
+.our_team_section{
+    background-color: #F2F2F2;
+    text-align: center;
+    padding: 8rem;
+    margin-top: 10rem;
+
+}
+
+.team_members{
+    margin-top: 5rem;
+}
+.team_member{
+    box-shadow: -2px -2px 6px rgba(128, 128, 128, 0.281), 
+    2px 2px 6px rgba(128, 128, 128, 0.26);
+    padding-bottom: 2rem;
+}
+.team_member img{
+    width: 100%;
+}
+ .team_member .member_name{
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.member_p{
+    margin-top: 1rem;
+    color: red;
+}
+
+// Solution Section
+
+.solution_section_new{
+    margin: 0;
+}
+.read_more_btn_about{
+    margin-top: 2rem;
+}
+.read_more_btn_about a{
+    background-color: $primary;
+    color: $white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+
+// Client Section
+
+.client_section_about{
+    background-color: #F2F2F2;
+    margin:0;
+}
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 12px;
+    }
+    .team_member{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    html{
+        font-size: 8px;
+    }
+}

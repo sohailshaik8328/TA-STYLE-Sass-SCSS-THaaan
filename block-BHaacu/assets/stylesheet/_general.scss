@@ -1,0 +1,83 @@
+*, *::before, *::after {
+    box-sizing:  border-box;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: $font;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.8rem;
+}
+a{
+    text-decoration: none;
+}
+
+// Custom Styles
+
+.container {
+    max-width: 1580px;
+    width: 100%;
+    margin: auto;
+    // border: 1px solid black;
+}
+
+.flex {
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.flex-65{
+    flex: 0 1 65%;
+}
+
+.flex-45 {
+    flex : 0 1 45% ;
+}
+
+.flex-40 {
+    flex: 0 1 40%;
+}
+
+.flex-30 {
+    flex: 0 1 30%;
+}
+
+.flex-23 {
+    flex: 0 1 23%;
+}
+.wrap{
+    flex-wrap: wrap;
+}
